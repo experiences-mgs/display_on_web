@@ -1,1 +1,1 @@
-export let g=[0,0];
+ let g=[0,0];
