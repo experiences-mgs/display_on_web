@@ -6,7 +6,7 @@
     <title>_DISPLAY_ON_WEB_</title>
   </head>
   <body>
-    <canvas id="canvas" width="2000" height="2000"></canvas>
+    <canvas id="canvas" width="1366" height="768"></canvas>
     
     
     <script  src="color_r.js"></script>
@@ -14,15 +14,15 @@
      <script  src="color_b.js"></script>
         <script >
          function fill(){ 
-          var width=600;
-          var heigth=600;
+          var width=1366;
+          var height=768;
           var c=0;
           var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 
   
         for(let w=0;w<=width;w++){
-            for(let h=0;h<=heigth;h++){
+            for(let h=0;h<=height;h++){
               c+=1;
               ctx.fillStyle =
               "rgb(" +
